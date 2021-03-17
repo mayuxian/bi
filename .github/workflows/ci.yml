@@ -32,7 +32,7 @@ jobs:
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.0
       with:
-          branch: master # The branch the action should deploy to.
+          branch: gh-pages # The branch the action should deploy to.
           folder: dist # dist # The folder the action should deploy.
       #uses: xRealNeon/VuePagesAction@1.0.0
       #with:
